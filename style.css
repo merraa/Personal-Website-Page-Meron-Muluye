@@ -1,0 +1,155 @@
+/* HOME PAGE */
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #191d2b;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page {
+    color: white;
+    background-color: #191d2b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80vw;
+    height: 90vh;
+
+
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.pic{
+    width: 35%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.name{
+    color: #27AE60;
+}
+
+.bio{
+    width: 40%;
+}
+
+.navigation-btns{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+h3{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+/* SHARED */
+
+.about-me,
+.projects,
+.contact-me {
+    width: 80vw;
+    height: 45vh;
+}
+
+.about-me-par{
+    margin: 50px;
+}
+
+.about-me-text,
+.projects-text,
+.contact-me-text {
+    color: #27AE60;
+}
+
+.break{
+    height: 20px;
+}
+/* ABOUT ME */
+
+.about-me-par{
+    color: white;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+
+
+/* PROJECT */
+
+.project-boxes{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    margin: 20px;
+}
+
+.vismed, .movie-recommendation-app, .meme-generating-app{
+    width: 30%;
+    height: 100%;
+}
+
+.vismed-img, .meme-img, .movie-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.projects h4{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.projects-name:{
+
+}
+
+
+/* CONTACT-ME*/
+
+.contact-me-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+}
+
+.email,
+.social-media {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.email{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.email h4{
+    color: white;
+}
+
+.email i{
+    margin-right: 0.6rem;
+}
+.social-media a{
+    margin-left: 1rem;
+}
